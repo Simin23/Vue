@@ -1,0 +1,284 @@
+.header_title a {
+    display: inline-block;
+    padding: 0 33px;
+    height: 36px;
+    color: #2a2a2a
+}
+
+.header_title a.on {
+    color: #313131
+}
+
+.header_title a.on span {
+    padding-bottom: .12rem;
+    border-bottom: 1px solid #313131;
+}
+
+.searchClass {
+    margin-top: 1.88rem
+}
+
+.searchClass .classify_nav {
+    width: 100%;
+    position: fixed;
+    top: .88rem;
+    /*left: 0;*/
+    z-index: 2;
+    overflow: hidden;
+    height: 1rem;
+    line-height: 1rem;
+    background: #fff
+}
+
+.searchClass .classify_nav a {
+    display: block;
+    float: left;
+    width: auto;
+    font-size: .3rem;
+    color: #bdbdbd;
+    text-align: center;
+    padding-left: .15rem;
+    padding-right: .15rem;
+    padding-top: 0;
+    padding-bottom: 0;
+    white-space: nowrap
+}
+
+.searchClass .classify_nav a span {
+    padding-bottom: .04rem;
+    border-bottom: .04rem solid #fff
+}
+
+.searchClass .classify_nav a.active-nav,
+.searchClass .classify_nav a.current {
+    color: #313131
+}
+
+.searchClass .classify_nav a.active-nav span,
+.searchClass .classify_nav a.current span {
+    border-bottom: .04rem solid #313131
+}
+
+.searchClass .classify_nav .swiper-slide {
+    width: auto
+}
+
+.searchClass .classify_content a {
+    position: relative;
+    display: block
+}
+
+.searchClass .classify_content .bannerBox {
+    background: #f4f4f4;
+    height: 94px;
+}
+
+/* .searchClass .classify_content .banner {
+    height: 94px;
+    overflow: hidden
+} */
+
+.searchClass .classify_content .classLayer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: 0 0;
+    display: box;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -moz-box-align: center;
+    -ms-box-align: center;
+    box-align: center;
+    -webkit-box-pack: center;
+    -moz-box-pack: center;
+    -ms-box-pack: center;
+    box-pack: center;
+    -webkit-align-items: center;
+    -moz-align-items: center;
+    -ms-align-items: center;
+    -o-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    -moz-justify-content: center;
+    -ms-justify-content: center;
+    -o-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center
+}
+
+.searchClass .classify_content .classLayer .layerTxt {
+    padding: .1rem;
+    line-height: 1.3;
+    font-size: .34rem;
+    color: #5d5d5d;
+    background: #fff
+}
+
+.searchClass .classify_content .classLayer .layerTxt span {
+    display: inline-block;
+    width: .55rem;
+    margin-left: -1px;
+    border-left: 1px solid #bdbdbd;
+    border-right: 1px solid #bdbdbd;
+    text-align: center;
+    vertical-align: top
+}
+
+.searchClass .classify_content .seeAll {
+    position: absolute;
+    bottom: .2rem;
+    right: .2rem;
+    color: #fff;
+    font-size: .24rem
+}
+
+ .searchClass .classify_content .classNav {
+    /* padding: .15rem 0 .25rem 0 */
+    background: white;
+}
+
+/*.searchClass .classify_content .classNav li {
+    float: left;
+    width: 25%;
+    text-align: center;
+    height: 1.6rem;
+}
+
+.searchClass .classify_content .classNav li a {
+    padding: .15rem 0;
+}
+
+.searchClass .classify_content .classNav img {
+    width: 1.02rem;
+    height: 1.02rem;
+    border-radius: 50%
+}
+
+.searchClass .classify_content .classNav span {
+    font-size: .24rem;
+    color: #5d5d5d;
+    display: block
+} */
+
+.searchBrand_01 {
+    margin-top: 1.88rem
+}
+
+.searchBrand_01 .classify_nav {
+    width: 100%;
+    position: fixed;
+    top: .88rem;
+    left: 0;
+    z-index: 2;
+    overflow: hidden;
+    height: 1rem;
+    line-height: 1rem;
+    background: #fff
+}
+
+.searchBrand_01 .classify_nav a {
+    display: block;
+    float: left;
+    width: auto;
+    font-size: .3rem;
+    color: #bdbdbd;
+    text-align: center;
+    padding-left: .15rem;
+    padding-right: .15rem;
+    padding-top: 0;
+    padding-bottom: 0;
+    white-space: nowrap
+}
+
+.searchBrand_01 .classify_nav a span {
+    padding-bottom: .04rem;
+    border-bottom: .04rem solid #fff
+}
+
+.searchBrand_01 .classify_nav a.active-nav,
+.searchBrand_01 .classify_nav a.current {
+    color: #313131
+}
+
+.searchBrand_01 .classify_nav a.active-nav span,
+.searchBrand_01 .classify_nav a.current span {
+    border-bottom: .04rem solid #313131
+}
+
+.searchBrand_01 .classify_nav .swiper-slide {
+    width: auto
+}
+
+.searchBrand_01 .first .brand {
+    margin-top: 1.76rem
+}
+
+.searchBrand_01 .first .brand h2 {
+    font-size: 11px;
+    color: #5d5d5d
+}
+
+.searchBrand_01 .brand_floor .brand {
+    width: 100%;
+    background: #f4f4f4;
+    height: 26px;
+    text-align: center;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    line-height: 26px;
+}
+
+.searchBrand_01 .brandTotal {
+    position: fixed;
+    right: 10px;
+    bottom: .2rem;
+    background: #313131;
+    width: 30px;
+    height: 30px;
+    color: #fff;
+    font-size: 10px;
+    text-align: center;
+    line-height: 30px
+}
+
+.searchBrand_01 .brand_floor ul {
+    width: 100%;
+    border-top: 1px solid #f3f3f3
+}
+
+.searchBrand_01 .brand_floor ul li {
+    width: 33.33%;
+    border-right: 1px solid #f3f3f3;
+    border-bottom: 1px solid #f3f3f3;
+    text-align: center;
+    height: 94px;
+    padding-top: 9px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    float: left
+}
+
+.searchBrand_01 .brand_floor ul li img {
+    width: 43px;
+    height: 43px
+}
+
+.searchBrand_01 .brand_floor ul li span {
+    color: #737373;
+    font-size: 11px;
+    display: block;
+    margin-top: 9px
+}
+
+.classify_content {
+    padding-bottom: 5px
+}

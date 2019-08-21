@@ -1,0 +1,1707 @@
+::-webkit-input-placeholder {
+    color: #bdbdbd;
+    font-family: helvetica, PingFangSC-Light, 'Heiti SC', "Hiragino Sans GB", STXihei, "Microsoft YaHei", sans-serif
+}
+
+:-moz-placeholder {
+    color: #bdbdbd;
+    font-family: helvetica, PingFangSC-Light, 'Heiti SC', "Hiragino Sans GB", STXihei, "Microsoft YaHei", sans-serif
+}
+
+::-moz-placeholder {
+    color: #bdbdbd;
+    font-family: helvetica, PingFangSC-Light, 'Heiti SC', "Hiragino Sans GB", STXihei, "Microsoft YaHei", sans-serif
+}
+.common_header .searchKey{
+    height: .87rem;
+     margin:0;
+     padding-top: 0;
+    text-align: center;
+}
+.common_header .searchKey .keyWordBlock{
+    font-size:.3rem;
+    font-family:PingFangSC-Semibold;
+    color:rgba(49,49,49,1);
+    margin-top: .14rem;
+}
+.common_header .searchKey .keyWordNum{
+    font-size:.22rem;
+    font-family:PingFangSC-Regular;
+    color:rgba(49,49,49,1);
+}
+.common_header .top-search-btn{
+    width: 17px;
+    height: 17px;
+    display: block;
+    background: url(http://3g.baobeigezi.com/imgs/shousuo2x.png) no-repeat;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100%;
+    background-size: 100%;
+    position: absolute;
+    left:30px;
+    top: 6px;
+}
+.nav2 {
+    width: 100%;
+    border-bottom: 1px solid #e2dede
+}
+
+.nav2 a {
+    float: left;
+    text-align: center;
+    font-size: .24rem;
+    height: 38px;
+    line-height: 38px
+}
+
+.nav2_three a {
+    width: 33.33%
+}
+
+.nav2_four a {
+    width: 25%
+}
+
+.nav2_five a {
+    width: 20%
+}
+
+.nav2_six a {
+    width: 16.6%
+}
+
+.nav2_seven a {
+    width: 14.2%
+}
+
+.nav2_eight a {
+    width: 12.5%
+}
+
+.nullCont {
+    text-align: center;
+    margin-top: 50%
+}
+
+.nullCont img {
+    width: 1.1rem;
+    height: 1.1rem;
+    margin-bottom: .3rem
+}
+
+.nullCont p {
+    font-size: .26rem;
+    color: #bdbdbd
+}
+
+.changeStyle_box {
+    position: fixed;
+    width: 100%;
+    background: #fff;
+    z-index: 3;
+    top: 38px;
+    left: 0;
+    height: 38px;
+    border-bottom: 1px solid #f4f4f4
+}
+.listShop {
+    padding-top: 75px;
+    padding-bottom: 14px
+}
+
+.listShop .nav2_four {
+    width: 100%;
+    border-bottom: none;
+    float: left
+}
+
+.listShop .nav2_four a {
+    font-size: 12px;
+    color: #313131
+}
+
+.listShop .nav2_four a span {
+    display: inline-block;
+    border-bottom: 1px solid #fff
+}
+
+.listShop .nav2_four a.on {
+    color: #313131;
+}
+
+.listShop .nav2_four a.on span {
+    border-bottom: 1px solid #313131
+}
+
+.listShop .nav2_four a.price i {
+    width: 5.11px;
+    height: 8.53px;
+    margin-left: 3px
+}
+.listShop .nav2_four a.sort3  .search-category-icon{
+    background: url(http://3g.baobeigezi.com/imgs/car/moren.png) no-repeat;
+    -webkit-background-size: 100% 100%;
+       -moz-background-size: 100%;
+            background-size: 100%
+}
+.listShop .nav2_four a.price .arrowUp {
+    background: url(/imgs/car/priceMax.png) no-repeat;
+    -webkit-background-size: 100% 100%;
+       -moz-background-size: 100%;
+            background-size: 100%
+}
+
+.listShop .nav2_four a.price .arrowDown {
+    background: url(/imgs/car/priceMoren.png) no-repeat;
+    -webkit-background-size: 100% 100%;
+       -moz-background-size: 100%;
+            background-size: 100%
+}
+
+.listShop .nav2_four a.price.on .arrowUp {
+    background: url(/imgs/car/priceMax.png) no-repeat;
+    -webkit-background-size: 100% 100%;
+       -moz-background-size: 100%;
+            background-size: 100%
+}
+
+.listShop .nav2_four a.price.on .arrowDown {
+    background: url(/imgs/car/priceMoren.png) no-repeat;
+    -webkit-background-size: 100% 100%;
+       -moz-background-size: 100%;
+            background-size: 100%
+}
+
+.listShop .nav2_four a.sift i, .listShop .nav2_four a.syn i {
+    width: 8px;
+    height: 6px;
+    margin-left: 3px
+}
+
+.listShop .nav2_four a.sift .triangleUp, .listShop .nav2_four a.syn .triangleUp {
+    background-position: -2.64rem -.42rem
+}
+
+.listShop .nav2_four a.syn .triangleDown {
+    background-position: -2.63rem -.62rem
+}
+
+.listShop .nav2_four a.syn.on .triangleUp {
+    background-position: -1.67rem -.78rem
+}
+
+.listShop .nav2_four a.syn.on .triangleDown {
+    background-position: -85px -50px
+}
+
+.listShop .searchTemp {
+    display: none;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top:76px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 3
+}
+
+.listShop .searchTemp .option .optionTit .on.off {
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);
+    -ms-transform: rotate(180deg);
+     -o-transform: rotate(180deg);
+        transform: rotate(180deg)
+}
+
+.listShop .searchTemp .shadel {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, .2)
+}
+
+.listShop .searchTemp .searchTempBody {
+    position: absolute;
+    width: 100%;
+    height: 75%;
+    top: 0;
+    right: 0;
+    left: 0;
+    background: #fff
+}
+
+.listShop .searchTemp .searchTempList {
+    height: 85%;
+    overflow-y: auto
+}
+
+.listShop .searchTemp .option {
+    padding: 0 13px;
+    border-bottom: 1px solid #f4f4f4
+}
+
+.listShop .searchTemp .option .optionTit {
+    padding: 13px 0
+}
+
+.listShop .searchTemp .option .optionTit .optionTitText {
+    font-size: 11px;
+    color: #5d5d5d;
+    margin-right: 13px;
+    float: left
+}
+
+.listShop .searchTemp .option .optionTit .switch {
+    display: block;
+    float: right
+}
+
+.listShop .searchTemp .option .optionTit .switch .optionTitOptions {
+    display: inline-block;
+    width: 4.3rem;
+    text-align: right;
+    padding-right: .08rem;
+    font-size: .24rem;
+    color: #bdbdbd;
+    overflow: hidden;
+    -o-text-overflow: ellipsis;
+       text-overflow: ellipsis;
+    white-space: nowrap
+}
+
+.listShop .searchTemp .option .optionTit .switch .search-category-icon {
+    width: .18rem;
+    height: .13rem;
+    vertical-align: super
+}
+
+.listShop .searchTemp .option .optionTit .switch .search-category-icon.triangleDown {
+    background-position: -2.64rem -.63rem
+}
+
+.listShop .searchTemp .option .optionTit .switch .search-category-icon.triangleUp {
+    background-position: -2.64rem -.42rem
+}
+
+@media screen and (max-width: 330px) {
+    .listShop .searchTemp .option .optionTit .switch .search-category-icon {
+        vertical-align: middle
+    }
+}
+
+.listShop .searchTemp .option .optionChild {
+    padding-bottom: 13px
+}
+
+.listShop .searchTemp .option .optionChild .optionChildTit {
+    font-size: .24rem;
+    color: #999;
+    padding-bottom: .3rem
+}
+
+.listShop .searchTemp .option .optionChild .optionChildBox {
+    color: #bdbdbd;
+    text-align: center
+}
+
+.listShop .searchTemp .option .optionChild .optionChildBox a {
+    display: block;
+    position: relative;
+    z-index: 1;
+    float: left;
+    width: 30.66%;
+    height: 30px;
+    line-height: 30px;
+    margin-right: 4%;
+    margin-bottom: 8.533px;
+    text-align: center;
+    background: #fff;
+    border: 1px solid #ccc;
+    overflow: hidden;
+    -o-text-overflow: ellipsis;
+       text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 12px;
+    color: #5d5d5d
+}
+
+.listShop .searchTemp .option .optionChild .optionChildBox a.on {
+    border: 1px solid #BB361F;
+    color: #BB361F;
+    z-index: 2
+}
+
+.listShop .searchTemp .option .optionChild .optionChildBox a:nth-child(3n) {
+    margin-right: 0
+}
+
+.listShop .searchTemp .option .optionChild .seacrhBox {
+    position: relative;
+    display: inline-block;
+    width: 48.2%
+}
+
+@media screen and (max-width: 708px) {
+    .listShop .searchTemp .option .optionChild .seacrhBox {
+        width: 48%
+    }
+}
+
+@media screen and (max-width: 645px) {
+    .listShop .searchTemp .option .optionChild .seacrhBox {
+        width: 47.2%
+    }
+}
+
+@media screen and (max-width: 470px) {
+    .listShop .searchTemp .option .optionChild .seacrhBox {
+        width: 46.5%
+    }
+}
+
+@media screen and (max-width: 390px) {
+    .listShop .searchTemp .option .optionChild .seacrhBox {
+        width: 46%
+    }
+}
+
+@media screen and (max-width: 330px) {
+    .listShop .searchTemp .option .optionChild .seacrhBox {
+        width: 45.4%
+    }
+}
+
+.listShop .searchTemp .option .optionChild .seacrhBox .search-icon-close {
+    position: absolute;
+    top: 50%;
+    right: .14rem;
+    display: none;
+    margin-top: -.17rem;
+    width: .34rem;
+    height: .34rem;
+    background-position: 0 0
+}
+
+.listShop .searchTemp .option .optionChild .seacrhBox .searchTxt {
+    width: 100%;
+    padding: 6px 23px 6px 6px;
+    border: 1px solid #e1dedf;
+    height: 30px;
+    line-height: 14px;
+    font-size: 11px;
+    color: #5d5d5d;
+    text-align: center
+}
+
+.listShop .searchTemp .option .optionChild .middle {
+    display: inline-block;
+    text-align: center
+}
+
+.listShop .searchTempBtn {
+    margin: 0 9px;
+    padding-top: 9px
+}
+
+.listShop .searchTempBtn a {
+    display: block;
+    text-align: center;
+    font-size: 11px;
+    height: 30px;
+    line-height: 30px
+}
+
+.listShop .searchTempBtn a.reload {
+    float: left;
+    width: 22.54%;
+    background: #e2dede;
+    color: #5d5d5d
+}
+
+.listShop .searchTempBtn a.submit {
+    float: right;
+    width: 74.65%;
+    background: #dcb86c;
+    color: #fff
+}
+
+.listShop .searchTempBtn a.submit .totalPros {
+    padding: 0 .1rem
+}
+
+.listShop .searchTempBtn a.submit .arrowRight-icon {
+    width: .14rem;
+    height: .2rem;
+    float: right;
+    margin-right: .18rem;
+    margin-top: .24rem;
+    background-position: 0 -.44rem
+}
+
+.listShop #subSearchTemp .searchTempBody {
+    height: auto
+}
+
+.listShop #subSearchTemp .searchTempList {
+    padding: 0;
+    height: auto
+}
+
+.listShop #subSearchTemp a {
+    position: relative;
+    display: block;
+    padding: 0 12px;
+    height: 38px;
+    line-height: 38px;
+    border-bottom: 1px solid #f4f4f4;
+    font-size: 12px;
+    color: #5d5d5d
+}
+
+.listShop #subSearchTemp a:last-child {
+    border-bottom: none
+}
+
+.listShop #subSearchTemp a .success-icon {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 15px;
+    height: 15px;
+    background-position: -12px -36px
+}
+
+.listShop.listShop2 {
+    padding-top: .88rem
+}
+
+.listShop.listShop2 .changeStyle_box {
+    position: inherit
+}
+
+.listShop.listShop2 .list {
+    margin-top: .2rem
+}
+
+#mainSearchTemp .option:nth-last-of-type(1) {
+    border-bottom: none
+}
+
+.commonList {
+    margin-top: 1.08rem
+}
+
+.commonList .list1 {
+    margin-top: -.1rem
+}
+
+.m-proList1 {
+    display: block;
+    position: relative;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: -moz-box;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+       -moz-box-orient: horizontal;
+       -moz-box-direction: normal;
+        -ms-flex-flow: row;
+            flex-flow: row;
+    -webkit-flex-flow: row;
+    -webkit-justify-content: space-around;
+        -ms-flex-pack: distribute;
+            justify-content: space-around;
+    width: 100%;
+    height: 2.56rem;
+    background: #f4f4f4
+}
+
+.m-proList1 .tag {
+    position: absolute;
+    left: .1rem;
+    top: .1rem;
+    z-index: 2
+}
+
+.m-proList1 .tag img {
+    margin-right: .06rem;
+    vertical-align: top
+}
+
+.m-proList1 .tag span {
+    display: block;
+    float: left;
+    line-height: 1;
+    width: .3rem;
+    margin-right: .06rem;
+    border: 1px solid #ef6ffb;
+    padding: .04rem 0 .07rem 0;
+    text-align: center;
+    font-size: .2rem;
+    color: #ef6ffb
+}
+.m-proList1 .tag span.limited_time_purchase {
+    background-color: #ef6ffb;
+    color: #fff
+}
+
+.m-proList1 .proImg {
+    position: relative;
+    box-flex: 1;
+    -webkit-box-flex: 1;
+    width: 2.16rem;
+    height: 2.16rem;
+    margin: .2rem 0 0 0;
+    overflow: hidden
+}
+
+.m-proList1 .proImg img {
+    width: 100%
+}
+
+.m-proList1 .proBd {
+    position: relative;
+    box-flex: 1;
+    -webkit-box-flex: 1;
+    width: 4.6rem;
+    background: #fff;
+    padding-left: .5rem;
+    margin: .1rem;
+    margin-left: 0
+}
+
+.m-proList1 .proBd .nationFlag {
+    position: absolute;
+    left: .1rem;
+    top: .3rem;
+    width: .3rem;
+    height: .3rem;
+    -webkit-border-radius: 50%;
+       -moz-border-radius: 50%;
+            border-radius: 50%
+}
+
+.m-proList1 .proBd .brand {
+    padding-top: .3rem;
+    font-size: .24rem;
+    color: #5d5d5d;
+    overflow: hidden;
+    -o-text-overflow: ellipsis;
+       text-overflow: ellipsis;
+    white-space: nowrap;
+    font-weight: 700;
+    line-height: 1
+}
+
+.m-proList1 .proBd .tit {
+    margin-top: .08rem;
+    width: 90%;
+    overflow: hidden;
+    -o-text-overflow: ellipsis;
+       text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: .24rem;
+    color: #5d5d5d
+}
+
+.m-proList1 .proBd del {
+    display: block;
+    padding: .2rem 0 .15rem 0;
+    line-height: 1;
+    font-size: .22rem;
+    color: #bdbdbd
+}
+
+.m-proList1 .proBd .wrap {
+    position: relative;
+    border-top: 1px solid #e2dede;
+    margin-right: .1rem;
+    padding-top: .21rem;
+    text-align: center
+}
+
+.m-proList1 .proBd .wrap .price, .m-proList1 .proBd .wrap .salePrice {
+    float: left;
+    line-height: 1;
+    margin-top: .03rem;
+    font-size: .28rem;
+    color: #ef6ffb
+}
+
+
+.m-proList2 {
+    position: relative;
+    background: #f4f4f4
+}
+
+.m-proList2 img {
+    width: 100%
+}
+
+.m-proList2 .tag {
+    position: absolute;
+    left: .1rem;
+    top: .1rem;
+    z-index: 2
+}
+
+.m-proList2 .tag img {
+    margin-right: .06rem;
+    vertical-align: top
+}
+
+.m-proList2 .tag span {
+    display: block;
+    float: left;
+    line-height: 1;
+    width: .3rem;
+    border: 1px solid #ef6ffb;
+    padding: .04rem 0 .05rem 0;
+    margin-right: .06rem;
+    text-align: center;
+    font-size: .2rem;
+    color: #ef6ffb
+}
+
+
+.m-proList2 .wrap {
+    position: absolute;
+    z-index: 1;
+    display: block;
+    width: 90%;
+    margin: 0 5%;
+    bottom: .15rem;
+    left: 0;
+    padding: .12rem .14rem;
+    background: rgba(255, 255, 255, .9);
+    text-align: center
+}
+
+.m-proList2 .tit {
+    width: 100%;
+    height: .26rem;
+    overflow: hidden;
+    -o-text-overflow: ellipsis;
+       text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: .2rem;
+    color: #666
+}
+
+.m-proList2 .price, .m-proList2 .salePrice {
+    margin-top: .1rem;
+    margin-bottom: .05rem;
+    text-align: center;
+    font-size: .24rem;
+    color: #ef6ffb
+}
+
+.m-proList2 .vipPrice {
+    font-size: .22rem;
+    color: #333
+}
+
+
+
+.list2 {
+    margin: .2rem .2rem 0 .2rem
+}
+
+.list2 .m-proList1 {
+    margin-bottom: .2rem
+}
+
+.list1 {
+    padding: .1rem .1rem 0 .1rem
+}
+
+.list1 .m-proList1 {
+    display: block;
+    position: relative;
+    width: 3.44rem;
+    height: 3.44rem;
+    overflow: hidden;
+    margin: .1rem;
+    float: left
+}
+
+.list1 .proImg {
+    width: 100%;
+    height: 100%;
+    margin: 0
+}
+
+.list1 .proImg img {
+    width: 100%
+}
+
+.list1 .tag {
+    position: absolute;
+    left: .1rem;
+    top: .1rem;
+    z-index: 2
+}
+
+.list1 .tag span {
+    display: inline-block;
+    line-height: 1;
+    width: .3rem;
+    margin-right: .06rem;
+    border: 1px solid #ef6ffb;
+    padding: .04rem 0 .04rem 0;
+    text-align: center;
+    font-size: .2rem;
+    color: #ef6ffb
+}
+
+.list1 .proBd {
+    position: absolute;
+    display: block;
+    width: 90%;
+    margin: 0 5%;
+    bottom: .15rem;
+    left: 0;
+    padding: .12rem .14rem;
+    background: rgba(255, 255, 255, .9);
+    text-align: center
+}
+
+.list1 .proBd .brand, .list1 .proBd .country, .list1 .proBd .nationFlag, .list1 .proBd del {
+    display: none
+}
+
+.list1 .proBd .tit {
+    width: 100%;
+    height: .24rem;
+    overflow: hidden;
+    -o-text-overflow: ellipsis;
+       text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: .2rem;
+    color: #666;
+    margin: 0
+}
+
+.list1 .proBd .wrap {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    line-height: 1
+}
+
+.list1 .proBd .wrap .price, .list1 .proBd .wrap .salePrice {
+    float: none;
+    display: block;
+    margin-top: .1rem;
+    margin-bottom: .05rem;
+    text-align: center;
+    font-size: .24rem;
+    color: #ef6ffb
+}
+
+.list1 .proBd .wrap .vipPrice {
+    float: none;
+    margin-right: 0;
+    display: block
+}
+
+.list1 .proBd .wrap .vipPriceIcon {
+    vertical-align: bottom
+}
+
+.list {
+    padding: .1rem .2rem 0 .2rem
+}
+
+.list .m-proList .acDesc {
+    display: none
+}
+
+.bookingBanner {
+    position: relative
+}
+
+.bookingBanner img {
+    width: 100%
+}
+
+.bookNum {
+    float: right;
+    margin-top: .08rem;
+    font-size: .22rem;
+    color: #bdbdbd
+}
+
+.listShop.fanyong {
+    padding-top: .88rem
+}
+
+.listShop.fanyong .list2 .m-proList1 .price {
+    padding: .1rem 0 .13rem 0;
+    line-height: 1;
+    font-size: .22rem;
+    color: #bdbdbd
+}
+
+.listShop.fanyong .list2 .m-proList1 .price .fanNoney {
+    display: inline-block;
+    padding-left: .16rem
+}
+
+.listShop.fanyong .list2 .m-proList1 .wrap {
+    text-align: left
+}
+
+
+.listShop.fanyong .list2 .m-proList1 .wrap .money {
+    display: inline-block;
+    line-height: .3rem;
+    font-size: .28rem;
+    color: #ef6ffb;
+    padding-left: .06rem
+}
+
+.banner1, .banner2 {
+    overflow: hidden;
+    position: relative
+}
+
+.banner1 a, .banner2 a {
+    display: block
+}
+
+.banner1 a img, .banner2 a img {
+    width: 100%
+}
+
+.banner2 .swiper-container .swiper-pagination {
+    position: absolute;
+    text-align: left;
+    padding-left: .37rem;
+    bottom: .42rem
+}
+.proSlide {
+    padding: .2rem .2rem .25rem .2rem
+}
+
+.proSlide .swiper-slide {
+    float: left
+}
+
+.proSlide .m-proList1 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: -moz-box;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+       -moz-box-orient: horizontal;
+       -moz-box-direction: normal;
+        -ms-flex-flow: row;
+            flex-flow: row;
+    -webkit-flex-flow: row;
+    -webkit-justify-content: space-around;
+        -ms-flex-pack: distribute;
+            justify-content: space-around
+}
+
+.proSlide .swiper-container .swiper-pagination {
+    position: relative;
+    bottom: auto;
+    padding-top: .16rem
+}
+.newList .proSlide {
+    border-bottom: 1px solid #e2dede
+}
+
+.newList .tab-container .tabNav {
+    height: 1rem;
+    line-height: 1rem;
+    background: #fff
+}
+
+.newList .tab-container .tabNav a {
+    display: block;
+    float: left;
+    width: auto;
+    font-size: .3rem;
+    color: #bdbdbd;
+    text-align: center;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    white-space: nowrap
+}
+
+.newList .tab-container .tabNav a span {
+    padding-bottom: .04rem;
+    border-bottom: .04rem solid #fff
+}
+
+.newList .tab-container .tabNav a.active-nav, .newList .tab-container .tabNav a.current {
+    color: #ef6ffb
+}
+
+.newList .tab-container .tabNav a.active-nav span, .newList .tab-container .tabNav a.current span {
+    border-bottom: .04rem solid #ef6ffb
+}
+
+.newList .tab-container .tabNav.nav_five a {
+    width: 16.6%
+}
+
+.newList .tab-container .tabNav.fixedNav {
+    position: fixed;
+    top: .88rem;
+    width: 100%;
+    height: 1rem;
+    background: #fff;
+    left: 0;
+    z-index: 3
+}
+
+.newList .tab-container .tabContent .list {
+    padding: 0 .1rem
+}
+
+.newList .tab-container .tabContent .list .m-proList2 {
+    display: block;
+    width: 3.44rem;
+    height: 3.44rem;
+    float: left;
+    overflow: hidden;
+    margin: .1rem;
+    position: relative;
+    background: #f4f4f4
+}
+
+.newList .tab-container .tabContent .list .m-proList2 img {
+    width: 100%
+}
+
+.newList .tab-container .tabContent .list .m-proList2 .tag {
+    position: absolute;
+    left: .1rem;
+    top: .1rem;
+    z-index: 2
+}
+
+.newList .tab-container .tabContent .list .m-proList2 .tag img {
+    margin-right: .06rem;
+    vertical-align: top
+}
+
+.newList .tab-container .tabContent .list .m-proList2 .tag span {
+    display: block;
+    float: left;
+    line-height: 1;
+    width: .3rem;
+    border: 1px solid #ef6ffb;
+    padding: .04rem 0 .05rem 0;
+    margin-right: .06rem;
+    text-align: center;
+    font-size: .2rem;
+    color: #ef6ffb
+}
+
+.newList .tab-container .tabContent .list .m-proList2 .wrap {
+    position: absolute;
+    z-index: 1;
+    display: block;
+    width: 90%;
+    margin: 0 5%;
+    bottom: .15rem;
+    left: 0;
+    padding: .12rem .14rem;
+    background: rgba(255, 255, 255, .9);
+    text-align: center
+}
+
+.newList .tab-container .tabContent .list .m-proList2 .tit {
+    width: 100%;
+    height: .26rem;
+    overflow: hidden;
+    -o-text-overflow: ellipsis;
+       text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: .2rem;
+    color: #666
+}
+
+.newList .tab-container .tabContent .list .m-proList2 .price, .newList .tab-container .tabContent .list .m-proList2 .salePrice {
+    margin-top: .1rem;
+    margin-bottom: .05rem;
+    text-align: center;
+    font-size: .24rem;
+    color: #ef6ffb
+}
+
+.newList .tab-container .tabContent .list .m-proList2 img {
+    width: 100%
+}
+
+.newList .tab-container .tabContent .list .m-proList2 .tag {
+    position: absolute;
+    left: .1rem;
+    top: .1rem;
+    z-index: 2
+}
+
+.newList .tab-container .tabContent .list .m-proList2 .tag img {
+    margin-right: .06rem;
+    vertical-align: top
+}
+
+.newList .tab-container .tabContent .list .m-proList2 .tag span {
+    display: block;
+    float: left;
+    line-height: 1;
+    width: .3rem;
+    border: 1px solid #ef6ffb;
+    padding: .04rem 0 .05rem 0;
+    margin-right: .06rem;
+    text-align: center;
+    font-size: .2rem;
+    color: #ef6ffb
+}
+
+
+.newList .tab-container .tabContent .list .m-proList2 .wrap {
+    position: absolute;
+    z-index: 1;
+    display: block;
+    width: 90%;
+    margin: 0 5%;
+    bottom: .15rem;
+    left: 0;
+    padding: .12rem .14rem;
+    background: rgba(255, 255, 255, .9);
+    text-align: center
+}
+
+.newList .tab-container .tabContent .list .m-proList2 .tit {
+    width: 100%;
+    height: .26rem;
+    overflow: hidden;
+    -o-text-overflow: ellipsis;
+       text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: .2rem;
+    color: #666
+}
+
+.newList .tab-container .tabContent .list .m-proList2 .price, .newList .tab-container .tabContent .list .m-proList2 .salePrice {
+    margin-top: .1rem;
+    margin-bottom: .05rem;
+    text-align: center;
+    font-size: .24rem;
+    color: #ef6ffb
+}
+
+
+.listShop3 {
+    padding-top: .88rem
+}
+
+.listShop3 .topAc .sepLine {
+    background: #f4f4f4;
+    height: .2rem
+}
+
+.listShop3 .topAc .acDes {
+    background: #ff908f;
+    padding: .2rem;
+    font-size: .26rem;
+    text-align: center;
+    color: #fff;
+    overflow: hidden;
+    -o-text-overflow: ellipsis;
+       text-overflow: ellipsis;
+    white-space: nowrap
+}
+
+.listShop3 .topAc .m-proList1 .salePrice {
+    font-size: .26rem;
+    color: #ef6ffb
+}
+
+.listShop3 .topAc .m-proList1 del {
+    display: inline;
+    color: #b2b2b2;
+    font-size: .2rem;
+    padding-left: .2rem
+}
+
+.listShop3 .topAc .m-proList1 .price {
+    padding: .12rem 0
+}
+
+.listShop3 .topAc .m-proList1 .wrap {
+    text-align: left
+}
+
+.listShop3 .topAc .m-proList1 .wrap span {
+    font-size: .2rem;
+    color: #b2b2b2;
+    padding-left: .2rem
+}
+
+.listShop3 .topAc .m-proList1 .wrap span:first-child {
+    padding-left: 0
+}
+
+.listShop3 .topAc .desTxt {
+    margin-top: .2rem;
+    font-size: .24rem;
+    color: #b2b2b2;
+    line-height: 1.6
+}
+
+.listShop3 .topAc .swiper-container .swiper-pagination {
+    padding: .25rem 0 .12rem 0
+}
+
+.listShop3 .changeStyle_box {
+    position: relative;
+    top: 0;
+    width: 100%
+}
+
+.saleList .topMsg {
+    padding: 0 .2rem;
+    text-align: center
+}
+
+.saleList .topMsg .mainTit {
+    padding: .3rem 0;
+    line-height: 1.4;
+    font-size: .26rem;
+    color: #ff908f;
+    min-height: .92rem
+}
+
+.saleList .topMsg .subTit {
+    padding: .2rem 0;
+    line-height: 1.4;
+    min-height: .7rem;
+    background: #ff908f;
+    font-size: .26rem;
+    color: #fff
+}
+
+.saleList .list {
+    padding: .1rem .1rem 0 .1rem
+}
+
+.saleList .list .m-proList2 {
+    display: block;
+    width: 3.44rem;
+    height: 3.44rem;
+    float: left;
+    overflow: hidden;
+    margin: .1rem;
+    position: relative;
+    background: #f4f4f4
+}
+
+.saleList .list .m-proList2 img {
+    width: 100%
+}
+
+.saleList .list .m-proList2 .tag {
+    position: absolute;
+    left: .1rem;
+    top: .1rem;
+    z-index: 2
+}
+
+.saleList .list .m-proList2 .tag img {
+    margin-right: .06rem;
+    vertical-align: top
+}
+
+.saleList .list .m-proList2 .tag span {
+    display: block;
+    float: left;
+    line-height: 1;
+    width: .3rem;
+    border: 1px solid #ef6ffb;
+    padding: .04rem 0 .05rem 0;
+    margin-right: .06rem;
+    text-align: center;
+    font-size: .2rem;
+    color: #ef6ffb
+}
+.saleList .list .m-proList2 .wrap {
+    position: absolute;
+    z-index: 1;
+    display: block;
+    width: 90%;
+    margin: 0 5%;
+    bottom: .15rem;
+    left: 0;
+    padding: .12rem .14rem;
+    background: rgba(255, 255, 255, .9);
+    text-align: center
+}
+
+.saleList .list .m-proList2 .tit {
+    width: 100%;
+    height: .26rem;
+    overflow: hidden;
+    -o-text-overflow: ellipsis;
+       text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: .2rem;
+    color: #666
+}
+
+.saleList .list .m-proList2 .price, .saleList .list .m-proList2 .salePrice {
+    margin-top: .1rem;
+    margin-bottom: .05rem;
+    text-align: center;
+    font-size: .24rem;
+    color: #ef6ffb
+}
+.saleList .list .m-proList2 img {
+    width: 100%
+}
+
+.saleList .list .m-proList2 .tag {
+    position: absolute;
+    left: .1rem;
+    top: .1rem;
+    z-index: 2
+}
+
+.saleList .list .m-proList2 .tag img {
+    margin-right: .06rem;
+    vertical-align: top
+}
+
+.saleList .list .m-proList2 .tag span {
+    display: block;
+    float: left;
+    line-height: 1;
+    width: .3rem;
+    border: 1px solid #ef6ffb;
+    padding: .04rem 0 .05rem 0;
+    margin-right: .06rem;
+    text-align: center;
+    font-size: .2rem;
+    color: #ef6ffb
+}
+
+.saleList .list .m-proList2 .wrap {
+    position: absolute;
+    z-index: 1;
+    display: block;
+    width: 90%;
+    margin: 0 5%;
+    bottom: .15rem;
+    left: 0;
+    padding: .12rem .14rem;
+    background: rgba(255, 255, 255, .9);
+    text-align: center
+}
+
+.saleList .list .m-proList2 .tit {
+    width: 100%;
+    height: .26rem;
+    overflow: hidden;
+    -o-text-overflow: ellipsis;
+       text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: .2rem;
+    color: #666
+}
+
+.saleList .list .m-proList2 .price, .saleList .list .m-proList2 .salePrice {
+    margin-top: .1rem;
+    margin-bottom: .05rem;
+    text-align: center;
+    font-size: .24rem;
+    color: #ef6ffb
+}
+
+
+.hotList .banner {
+    width: 100%
+}
+
+.hotList .banner img {
+    width: 100%
+}
+
+.hotList .m-nav {
+    height: 1rem;
+    line-height: 1rem;
+    background: #fff;
+    border-bottom: 1px solid #e1dedf
+}
+
+.hotList .m-nav a {
+    display: block;
+    float: left;
+    width: auto;
+    font-size: .3rem;
+    color: #bdbdbd;
+    text-align: center;
+    padding-left: .38rem;
+    padding-right: .38rem;
+    padding-top: 0;
+    padding-bottom: 0;
+    white-space: nowrap
+}
+
+.hotList .m-nav a span {
+    padding-bottom: .04rem;
+    border-bottom: .04rem solid #fff
+}
+
+.hotList .m-nav a.active-nav, .hotList .m-nav a.current {
+    color: #ef6ffb
+}
+
+.hotList .m-nav a.active-nav span, .hotList .m-nav a.current span {
+    border-bottom: .04rem solid #ef6ffb
+}
+
+.hotList .m-proList2-sm {
+    padding: .2rem .1rem .4rem .2rem;
+    border-bottom: 1px solid #e1dedf
+}
+
+.hotList .m-proList2-sm .m-proList2 {
+    float: left;
+    width: 2.3rem;
+    height: 2.3rem;
+    overflow: hidden;
+    margin-right: .1rem;
+    margin-bottom: .1rem;
+    position: relative;
+    background: #f4f4f4
+}
+
+.hotList .m-proList2-sm .m-proList2 img {
+    width: 100%
+}
+
+.hotList .m-proList2-sm .m-proList2 .tag {
+    position: absolute;
+    left: .1rem;
+    top: .1rem;
+    z-index: 2
+}
+
+.hotList .m-proList2-sm .m-proList2 .tag img {
+    margin-right: .06rem;
+    vertical-align: top
+}
+
+.hotList .m-proList2-sm .m-proList2 .tag span {
+    display: block;
+    float: left;
+    line-height: 1;
+    width: .3rem;
+    border: 1px solid #ef6ffb;
+    padding: .04rem 0 .05rem 0;
+    margin-right: .06rem;
+    text-align: center;
+    font-size: .2rem;
+    color: #ef6ffb
+}
+
+.hotList .m-proList2-sm .m-proList2 .wrap {
+    position: absolute;
+    z-index: 1;
+    display: block;
+    width: 90%;
+    margin: 0 5%;
+    bottom: .15rem;
+    left: 0;
+    padding: .12rem .14rem;
+    background: rgba(255, 255, 255, .9);
+    text-align: center
+}
+
+.hotList .m-proList2-sm .m-proList2 .tit {
+    width: 100%;
+    height: .26rem;
+    overflow: hidden;
+    -o-text-overflow: ellipsis;
+       text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: .2rem;
+    color: #666
+}
+
+.hotList .m-proList2-sm .m-proList2 .price, .hotList .m-proList2-sm .m-proList2 .salePrice {
+    margin-top: .1rem;
+    margin-bottom: .05rem;
+    text-align: center;
+    font-size: .24rem;
+    color: #ef6ffb
+}
+.hotList .m-proList2-sm .m-proList2 img {
+    width: 100%
+}
+
+.hotList .m-proList2-sm .m-proList2 .tag {
+    position: absolute;
+    left: .1rem;
+    top: .1rem;
+    z-index: 2
+}
+
+.hotList .m-proList2-sm .m-proList2 .tag img {
+    margin-right: .06rem;
+    vertical-align: top
+}
+
+.hotList .m-proList2-sm .m-proList2 .tag span {
+    display: block;
+    float: left;
+    line-height: 1;
+    width: .3rem;
+    border: 1px solid #ef6ffb;
+    padding: .04rem 0 .05rem 0;
+    margin-right: .06rem;
+    text-align: center;
+    font-size: .2rem;
+    color: #ef6ffb
+}
+
+.hotList .m-proList2-sm .m-proList2 .wrap {
+    position: absolute;
+    z-index: 1;
+    display: block;
+    width: 90%;
+    margin: 0 5%;
+    bottom: .15rem;
+    left: 0;
+    padding: .12rem .14rem;
+    background: rgba(255, 255, 255, .9);
+    text-align: center
+}
+
+.hotList .m-proList2-sm .m-proList2 .tit {
+    width: 100%;
+    height: .26rem;
+    overflow: hidden;
+    -o-text-overflow: ellipsis;
+       text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: .2rem;
+    color: #666
+}
+
+.hotList .m-proList2-sm .m-proList2 .price, .hotList .m-proList2-sm .m-proList2 .salePrice {
+    margin-top: .1rem;
+    margin-bottom: .05rem;
+    text-align: center;
+    font-size: .24rem;
+    color: #ef6ffb
+}
+
+.hotList .m-proList2-sm .m-proList2 {
+    overflow: visible
+}
+
+.hotList .m-proList2-sm .listTag {
+    position: absolute;
+    bottom: -.2rem;
+    left: .77rem;
+    display: block;
+    width: .76rem;
+    height: .34rem;
+    line-height: .34rem;
+    text-align: center;
+    color: #fff;
+    font-size: .18rem;
+    background: #ff908f;
+    z-index: 2
+}
+
+.hotList .list {
+    padding: .2rem .2rem .1rem .2rem
+}
+
+.hotList .list .m-proList1 {
+    margin-bottom: .2rem
+}
+
+.hotList .list .m-proList1 .salePrice {
+    font-size: .26rem;
+    color: #ef6ffb
+}
+
+.hotList .list .m-proList1 del {
+    display: inline;
+    color: #b2b2b2;
+    font-size: .2rem;
+    padding-left: .2rem
+}
+
+.hotList .list .m-proList1 .price {
+    padding: .12rem 0
+}
+
+.hotList .list .m-proList1 .wrap {
+    text-align: left
+}
+
+.hotList .list .m-proList1 .wrap span {
+    font-size: .2rem;
+    color: #b2b2b2;
+    padding-left: .2rem
+}
+
+.hotList .list .m-proList1 .wrap span:first-child {
+    padding-left: 0
+}
+
+.listShop2 {
+    padding-top: .88rem
+}
+
+.brandtop {
+    width: 100%
+}
+
+.huise {
+    background-color: #f2f2f2;
+    width: 100%;
+    height: .4rem
+}
+
+.brsec1 {
+    width: 100%;
+    padding: .25rem .2rem
+}
+
+.brsec1 .sec1Lef {
+    float: left
+}
+
+.brsec1 .sec1Lef img {
+    width: 1.2rem;
+    height: 1.2rem
+}
+
+.brsec1 .sec1right {
+    float: left;
+    padding-left: .2rem
+}
+
+.brsec1 .sec1right .diao {
+    margin-top: .15rem;
+    color: #2a2a2a;
+    font-size: .3rem;
+    line-height: .48rem
+}
+
+.brsec1 .sec1right .zaishou {
+    font-size: .24rem;
+    color: #7d7d7d;
+    line-height: .38rem
+}
+
+.brsec1 .sec1right .zaishou span {
+    color: #7e7e7e
+}
+
+.brsec2 p {
+    padding: 0 .2rem;
+    font-size: .24rem;
+    color: #535353;
+    line-height: .44rem;
+    max-height: .85rem;
+    overflow: hidden
+}
+
+.brsec2 .down {
+    background-image: url(/imgs/car/downimg.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: .6rem;
+    width: 100%;
+    display: block;
+    -webkit-background-size: .25rem .13rem;
+       -moz-background-size: .25rem .13rem;
+            background-size: .25rem .13rem
+}
+
+.brsec2 .down.up {
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+     -o-transform: rotate(180deg);
+        transform: rotate(180deg)
+}
+
+.brsec22 {
+    height: auto
+}
+
+.acDesc {
+    display: none
+}
+
+.saleTag {
+    display: none
+}
+
+.listShop .nav2_four {
+    width: 100%
+}
+
+.listShop .nav2_four .sift {
+    width: 54px;
+    height: 23px;
+    border: 1px solid #cccccc;
+    text-align: center;
+    line-height: 23px;
+    margin-top: 9px;
+    -webkit-border-radius: 5px;
+       -moz-border-radius: 5px;
+            border-radius: 5px;
+    margin-left: 15px;
+}
+
+.listShop .nav2_four a.sift .triangleDown {
+    width: 10px;
+    height: 12px;
+    background: url(http://3g.baobeigezi.com/imgs/car/shuaixuan.png) no-repeat;
+    -webkit-background-size: 100% 100%;
+       -moz-background-size: 100%;
+            background-size: 100%
+}
+
+.listShop .nav2_four a.sift.on .triangleUp {
+    width: .22rem;
+    height: .27rem;
+    background: url(/imgs/car/shuaixuan.png) no-repeat;
+    -webkit-background-size: 100% 100%;
+       -moz-background-size: 100%;
+            background-size: 100%
+}
+
+.listShop .nav2_four a.sift.on .triangleDown {
+    width: .22rem;
+    height: .27rem;
+    background: url(/imgs/car/shuaixuan.png) no-repeat;
+    -webkit-background-size: 100% 100%;
+       -moz-background-size: 100%;
+            background-size: 100%
+}

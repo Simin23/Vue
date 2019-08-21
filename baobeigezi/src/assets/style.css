@@ -1,0 +1,388 @@
+*{padding:0;margin:0;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;-webkit-overflow-scrolling:touch;overflow-scrolling:touch;-webkit-text-size-adjust:none;-webkit-font-smoothing:antialiased}
+table{border-collapse:collapse;border-spacing:0}abbr,acronym,fieldset{border:0}
+button,input,select,textarea{-webkit-appearance:none;outline:0;border:none;background:0 0}
+a,input{-webkit-tap-highlight-color:transparent}
+a{-webkit-touch-callout:none;outline:0;text-decoration:none}
+a:hover,a:link,a:visited{text-decoration:none}
+img{border:none;vertical-align:middle;width: 100%}
+address,caption,cite,code,dfn,em,strong,th,var{font-weight:400;font-style:normal}ol,ul{list-style:none}caption,th{text-align:left}h1,h2,h3,h4,h5,h6{font-weight:400;font-size:100%}q:after,q:before{content:""}
+.fl{float:left}.fr{float:right}.hide{display:none}.clearfix:after{content:"\00A0";display:block;visibility:hidden;width:0;height:0;clear:both;font-size:0;line-height:0;overflow:hidden}
+.pr{position: relative} .pa{position: absolute}
+
+body{
+  margin: 0 auto;
+  min-width: 320px;
+  max-width: 768px;
+}
+/* Clearfix hack by Nicolas Gallagher: http://nicolasgallagher.com/micro-clearfix-hack/ */
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  display: table;
+}
+.footerHight {
+  height: .97rem;
+}
+.clearfix:after {
+  clear: both;
+}
+.con-icon{
+  width: .4rem;
+  height: .4rem;
+  display:inline-block;
+  vertical-align: middle;
+  margin-bottom: .1rem;
+}
+footer{position:fixed;bottom:0;z-index:30000;max-width:768px;width:100%;background:#fff}
+.footerBar{display:table;width:100%;border-top:1px solid #eaeaea;height:.97rem}
+.footerBar .item{display:table-cell;width:25%;vertical-align:middle;text-align:center;color:grey;font-size:.2rem}
+.footerBar .item .item-text{display:block;margin-top:.05rem;line-height:1}
+.home1{
+  background: url('/imgs/shouye-morenicoicon2x.png') no-repeat center;
+  background-size:100%;
+}
+.footerBar .item.current .home1{
+  background: url('/imgs/shouye-dangqianicon2x.png') no-repeat center;
+  background-size:100%;
+}
+.footerBar .item.current .you1{
+  background: url('/imgs/youxuandian-dangqianico2x.png') no-repeat center;
+  background-size:100%;
+}
+.you1{
+  background: url('/imgs/youxuandian-morenico2x.png') no-repeat center;
+  background-size:100%;
+}
+.car1{
+  background: url('/imgs/gouwuche-morenico2x.png') no-repeat center;
+  background-size:100%;
+}
+.footerBar .item.current .car1{
+  background: url('/imgs/gouwuche-dangqianico2x.png') no-repeat center;
+  background-size:100%;
+}
+.my1{
+  background: url('/imgs/wode-moren%20ico2x.png') no-repeat center;
+  background-size:100%;
+}
+.footerBar .item.current .my1{
+  background: url('/imgs/wode-dangqianico2x.png') no-repeat center;
+  background-size:100%;
+}
+.footerHight{  height: .97rem;}
+.footerBar .item.current {  font-family: PingFangSC-Regular;  font-size:.2rem;  color: #313131;}
+.footerBar .item{color: #999999;}
+.pr{position: relative}
+.pa{position: absolute}
+.text-overflow3{overflow: hidden;text-overflow: ellipsis;display: -webkit-box;-webkit-box-orient: vertical;-webkit-line-clamp: 3;}
+.text-overflow2{overflow: hidden;text-overflow: ellipsis;display: -webkit-box;-webkit-box-orient: vertical;-webkit-line-clamp: 2;}
+.text-overflow{overflow: hidden; text-overflow:ellipsis;white-space:nowrap;}
+/*.water .today_golbal{overflow:hidden;}*/
+.water .today_golbal ul{ width: 100%;overflow: hidden;}
+.water .today_golbal li{
+  float: left;
+  width: 48%;
+  /* width: 3.54rem; */
+  background-color: #fff;
+  margin: 1%;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.water .today_golbal .imgDiv img{
+  height: 143px;
+  width: 100%;
+  text-align: center;
+  border-radius: 10px 10px 0 0;
+}
+.water .today_golbal .imgDiv{
+  height: 143px;
+  text-align: center;
+}
+.today_golbal .waterButtom{
+  font-size: 12px;
+  background-color: #fff;
+  border-radius: 0 0 10px 10px;
+  padding: 0 8.533px 8.533px 8.533px;
+}
+.waterList{
+  background-color: #f6f6f6;
+  padding: .1rem .1rem 0 .1rem;
+  min-height: 12.5rem;
+  height: 100%;
+}
+.water{
+  padding-top: 9px;
+}
+.today_golbal .waterName{
+  font-family: "Ping Fang SC Semibold";
+  margin-top: 12px;
+  color:#313131;
+  height: 28px;
+  line-height: 14px;
+}
+.today_golbal .waterDesc{
+  font-family:PingFangSC-Regular;
+  margin-top: .14rem;
+  color:#7f7e7e;
+  font-size: .24rem;
+  height: .6rem;
+  line-height: .3rem;
+  display: none;
+}
+.today_golbal .waterPrice{
+  margin-top: 9px;
+  color:#313131;
+  font-weight: 700;
+  line-height: 14px;
+  text-align: left
+}
+#gallery-wrapper {
+  position: relative;
+  max-width: 100%;
+  width:100%;
+}
+img.thumb {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+}
+#gallery-wrapper .white-panel {
+  position: absolute;
+  background: white;
+  border-radius: .3rem
+}
+.waterButtom .offIcon{
+  width: .74rem;
+  height: .74rem;
+  right: .2rem;
+  bottom: .24rem;
+  text-align: center;
+}
+.waterButtom .offIcon img{
+  width: .74rem;
+  height: .74rem;
+}
+.straDown{
+  color: #fff;
+  font-weight: 700;
+  font-size: .22rem;
+  margin-top: .04rem;
+  width: .6rem;
+  margin-left: .05rem;
+}
+/*???????*/
+.keyWord{
+  position: absolute;
+  top: 0rem;
+  z-index: 300;
+  max-width: 768px;
+  width: 100%;
+  height: 1.24rem;
+  z-index: 300;
+}
+.keyWord>.top-search-btn{
+  width: 7.1rem;
+  border-radius: 2rem;
+  background-color: #fff;
+  height: .58rem;
+  line-height: .58rem;
+  margin: .1rem auto;
+  position: relative;
+  display: block;
+  left: 0;
+  top: 0;
+}
+.top-search-btn>span{
+  font-size:.28rem;
+  color:#b1afaf;
+}
+.waterFull .swiper-slide{
+  font-family: PingFangSC-Medium;
+  font-size: .3rem;
+  margin-right: .3rem;
+  width: auto;
+}
+.waterFull li a{
+  color:#313131;
+  display: inline-block;
+  line-height: 14px;
+  font-family: "Ping Fang SC Semibold";
+  padding-bottom: 8.533px;
+}
+
+.Aunline{
+  border-bottom: .18rem solid #ece452;
+}
+.search-bar-icon{
+  width: .4rem;
+  height: .4rem;
+  background: url(/imgs/shousuo2x.png) no-repeat center;
+  background-size: 100%;
+  top:.1rem;
+  left: .36rem;
+  z-index: 200;
+}
+.waterFull li .underLine{
+  border-bottom:.08rem solid #313131;
+  color:#313131;;
+}
+.newList li {
+  font-family: PingFangSC-Medium;
+  font-size: .34rem;
+  width: 2.5rem;
+  margin-right: .2rem;
+}
+.imgStyle {
+  width: 2.5rem;
+  height: 2.5rem;
+}
+.newListDesc .price {
+  font-size: .26rem;
+  color: #313131;
+  font-weight: 700;
+  margin-top: .26rem;
+}
+.newBrand {
+  color: #7f7f7f;
+  font-size: .24rem;
+  margin-top: .1rem;
+}
+#tips {
+  position: fixed;
+  bottom: 10%;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  text-align: center;
+  animation: opacity 5s ease-in-out 0s 1 alternate;
+  opacity: 0;
+  z-index: 9999;
+}
+
+@keyframes opacity {
+  0% {
+    z-index: 9999;
+    opacity: 0;
+  }
+  10% {
+    z-index: 9999;
+    opacity: 0.8;
+  }
+  20% {
+    z-index: 9999;
+    opacity: 1;
+  }
+  80% {
+    z-index: 9999;
+    opacity: 1;
+  }
+  90% {
+    z-index: 9999;
+    opacity: 0.8;
+  }
+  100% {
+    opacity: 0;
+    z-index: -1;
+  }
+}
+
+#tips .words {
+  display: inline-block;
+  padding: .1rem .12rem;
+  background: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  border-radius: 0.05rem;
+  font-size:.22rem;
+  max-width: 75%;
+  margin: 0 auto;
+}
+.common_header {
+  position: fixed;
+  top: 0;
+  z-index: 3;
+  max-width: 768px;
+  width: 100%;
+  height: .88rem;
+  background: #fff;
+}
+
+.col_dcb86c{
+  background-color:#dcb86c;
+}
+.col{
+  color:#dcb86c;
+}
+.col_border{
+  border: 1px solid #dcb86c;
+}
+.col_BB361F{
+  color: #BB361F;
+}
+.btnFixed{
+  position: fixed;
+  max-width: 768px;
+  width: 100%;
+}
+.btnPa{
+  position: absolute;
+  max-width: 768px;
+  width: 100%;
+}
+/*����ϲ��*/
+.tuijian .tuijianName{
+  color:#313131;
+  margin-right: .1rem;
+}
+.cartRecommend ,.caiXihuan{
+  padding-bottom: 38px;
+}
+.caiXihuan .detailT {
+  height: .8rem;
+  line-height: .8rem;
+  text-align: center;
+  font-size: .28rem;
+  color: #313131;
+  font-weight: 600;
+}
+.cartRecommend .cartRecommend_tit {
+  height: 34px;
+  line-height: 34px;
+  text-align: center;
+  font-size: 12px;
+  color: #313131;
+  font-weight: 600;
+}
+.m-proList {
+  float: left;
+  width: 48%;
+  background-color: #fff;
+  margin: 1%;
+  overflow: hidden;
+  -webkit-border-radius: .15rem;
+  -moz-border-radius: .15rem;
+  border-radius: .15rem;
+}
+.proBd {
+  padding: 0 .2rem .2rem .2rem;
+}
+.noData {
+  text-align: center;
+  color: #bdbdbd;
+  margin-top: 3.9rem;
+  background-image: url(/imgs/default/noData.png);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: 1.1rem;
+  height: 2rem;
+  position: relative
+}
+
+.noData div {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin: 0 auto;
+  right: 0;
+  font-size: .24rem
+}

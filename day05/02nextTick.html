@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Vue.nextTick</title>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    p {
+        background: #58bc58;
+        text-align: center;
+        width: 100%;
+        height: 50px;
+        line-height: 50px;
+        color: white;
+    }
+
+    button {
+        display: block;
+        margin: auto;
+        margin-top: 10px;
+    }
+</style>
+
+<body>
+    <div id="ntk"></div>
+</body>
+<script src="./vue.js"></script>
+<script>
+    new Vue({
+        el: '#ntk',
+        data: {
+            ps: '好想放暑假鸭',
+            isok: true
+        },
+        template: `
+        <div>
+            <p v-text="ps"></p>
+            <button @click="click">点我告诉你</button>
+        </div>`,
+        methods: {
+
+            click() {
+                if (this.isok) {
+                    this.ps = '做梦吧你'
+                    // this.isok = !this.isok;
+                } else {
+                    this.ps = '好想放暑假鸭'
+                }
+                console.log(this.isok);
+                this.isok = !this.isok;
+
+                this.$nextTick(function () {
+                    console.log(this.$el.innerHTML)
+                })
+            }
+        }
+    })
+</script>
+
+</html>

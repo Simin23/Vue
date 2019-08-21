@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Vue.extend</title>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    p {
+        width: 100%;
+        height: 50px;
+        text-align: center;
+        color: white;
+        line-height: 50px;
+    }
+</style>
+
+<body>
+    <div id="etd"></div>
+</body>
+<script src="./vue.js"></script>
+<script>
+    console.log();
+    var pro = Vue.extend({
+        data: function () {
+            return {
+                background: '#58bc58',
+                title: 'Vue.entend'
+            }
+        },
+        template: '<p v-text="title" v-bind:style="{background:background}"></p>'
+    })
+    new pro().$mount('#etd');
+</script>
+
+</html>

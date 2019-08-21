@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            width: 100%;
+            height: 45px;
+            line-height: 40px;
+            color: white;
+            background: #4597f5;
+            padding: 0 10px;
+            font-size: 15px;
+            box-sizing: border-box;
+        }
+
+        #top {
+            width: 100%;
+            margin: auto;
+            height: 30px;
+            padding: 0 90px;
+            box-sizing: border-box;
+
+        }
+
+        p {
+            width: 100%;
+            height: 50px;
+        }
+
+        #bot {
+            box-sizing: border-box;
+            width: 70%;
+            background: #e3e3e3;
+            height: 30px;
+            padding: 0 10px;
+            border: none;
+            float: right;
+            margin-top: 10px;
+        }
+        span{
+            width: 100%;
+            text-align: center;
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="box">
+        <header>
+            <input type="text" placeholder="搜索饿了么商家、商品名称">
+            <span>选择收货地址</span>
+            <!-- <select name="" id="">
+                <option value="">aaa</option>
+                <option value="">bbb</option>
+                <option value="">ccc</option>
+            </select> -->
+        </header>
+    </div>
+</body>
+<script src="./vue.js"></script>
+<script>
+    Vue.component('my-header', {
+        props: ['title', 'color'],
+        template: `
+        <header :style="{
+            backgroundColor: color
+        }" v-html="title">
+        </header>
+    `
+    })
+
+    new Vue({
+        el: "#box",
+        // data: {
+        //     width: '90%'
+
+        // },
+        template: `
+            <div>
+                <my-header title="未能获取地址"></my-header>
+                <my-header title="<input type='text' id='top'  placeholder='搜索饿了么商家、商品名称'>"></my-header>
+                <p></p>
+                <my-header title="<span>选择收货地址</span>"></my-header>
+                <my-header color="white" title="<input type='text' id='bot' placeholder='请输入地址'>"></my-header>
+            </div>
+        `,
+    })
+</script>
+
+</html>

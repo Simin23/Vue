@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding: 50px;
+}
+
+#cars {
+    margin: auto;
+    width: 402px;
+}
+
+#menu {
+    overflow: hidden;
+    width: 402px;
+    display: flex;
+    justify-content: space-between;
+    background: #ccc;
+}
+
+#menu p {
+    width: 25%;
+    /* width: 80px; */
+    height: 30px;
+    font-size: 14px;
+    float: left;
+    text-align: center;
+    line-height: 30px;
+    cursor: pointer;
+
+}
+
+.active {
+    background: red;
+}
+
+#con div {
+    width: 400px;
+    height: 200px;
+    border: 1px solid #000;
+    display: none;
+    text-align: center;
+    line-height: 202px;
+}
+
+#con .aa {
+    /* width: 400px; */
+    height: 200px;
+    display: block;
+}
