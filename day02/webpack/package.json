@@ -7,7 +7,7 @@
     "html-loader": "^0.5.5",
     "html-minifier": "^4.0.0",
     "jquery": "^3.4.1",
-    "json5": "^2.1.0",
+    "json5": "^2.2.2",
     "loader-utils": "^1.2.3",
     "style-loader": "^0.23.1"
   }
